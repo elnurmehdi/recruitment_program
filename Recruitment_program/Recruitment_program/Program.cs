@@ -41,7 +41,7 @@ namespace Home_task_4
             _surname = GetTrueName("Surname", GetCommand("Surname"));
             _fatherName = GetTrueName("Father name", GetCommand("Father name"));
             _age = GetTrueAge("Age", GetCommand("Age"));//
-            _finCode = GetTrueName("Id card", GetCommand("Id card"));
+            _finCode = GetTrueName("FIN code", GetCommand("FIN code"));
             _phoneNumber = GetTrueName("Phone number", GetCommand("Phone number"));
             _position = GetTrueName("Position", GetCommand("Position"));
             _salary = GetTrueName("Salary", GetCommand("Salary"));
