@@ -11,7 +11,7 @@ namespace Home_task_4
             while (true)
             {
                 Console.WriteLine("Please, enter employee info:");
-                userInformation userInformation = new userInformation();
+                recruitment recruitment = new recruitment();
                
 
 
@@ -22,7 +22,7 @@ namespace Home_task_4
 
     }
 
-    public class userInformation
+    public class recruitment
     {
         public string _name;
         public string _surname;
@@ -33,7 +33,7 @@ namespace Home_task_4
         public string _position;
         public string _salary;
 
-        public userInformation()
+        public recruitment()
         {
            
 
